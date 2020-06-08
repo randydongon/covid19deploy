@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.confirmed-container {
+  border-radius: 1rem;
+  width: 18rem;
+  height: auto;
+  border-bottom: 1rem solid #63ace5;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  margin: 1rem 1rem;
+  padding: 1rem;
+}
+
+.recovered-container {
+  border-radius: 1rem;
+  width: 18rem;
+  height: auto;
+  border-bottom: 1rem solid#00b159;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  margin: 1rem 1rem;
+  color: #00b159;
+  padding: 1rem;
+}
+.deaths-container {
+  border-radius: 1rem;
+  width: 18rem;
+  height: auto;
+  border-bottom: 1rem solid #fe4a49;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  margin: 1rem 1rem;
+  color: #fe4a49;
+  padding: 1rem;
+}
+
+.counter-infected {
+  font-size: 1.5rem;
+  color: #63ace5;
+}
+.counter-recovered {
+  font-size: 1.5rem;
+  color: #00b159;
+}
+.counter-deaths {
+  font-size: 1.5rem;
+  color: #fe4a49;
+}
+@media (max-width: 770px) {
+  .confirmed-container {
+    max-width: 100%;
+    margin: auto;
+  }
+  .recovered-container {
+    max-width: 100%;
+    margin: 0.5rem auto;
+  }
+  .deaths-container {
+    max-width: 100%;
+    margin: auto;
+  }
+}
